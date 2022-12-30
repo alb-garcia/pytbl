@@ -1,0 +1,25 @@
+[project]
+
+name = "pytbl"
+description = "implementation of a table data type"
+version = "0.0.1"
+authors = [{name = "Alberto Garcia Izquierdo"}]
+license = {file = "LICENSE"}
+readme = "README.rst"
+requires-python = ">=3.7"
+dependencies = ["setuptools>64.0"]
+
+classifiers = [
+    "Programming Language :: Python :: 3"
+    ]
+
+
+[project.urls]
+repository    = "https://github.com/alb-garcia/pytbl"
+home          = "https://github.com/alb-garcia/pytbl"
+documentation = "https://github.com/alb-garcia/pytbl"
+
+[build-system]
+requires = ["setuptools>64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
